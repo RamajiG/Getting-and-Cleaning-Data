@@ -41,31 +41,14 @@ mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>The data
 files needed are:<o:p></o:p></span></p>
 
 <p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'></span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>features.txt</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>activity_labels.txt</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>x_test.txt</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>y_test.txt</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>x_train.txt</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>y_train.txt</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'>subject_test.txt
-(one each for ‘test’ and ‘train’)</span><span style='font-size:12.0pt;
-font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
-minor-latin;mso-bidi-font-family:"Courier New"'</span></p>
+mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin'><p>features.txt</p>
+<p>activity_labels.txt</p>
+<p>x_test.txt</span></p>
+<p>y_test.txt</span></p>
+<p>x_train.txt</span></p>
+<p>y_train.txt</span></p>
+<p>subject_test.txt
+(one each for ‘test’ and ‘train’)</p></span></p>
 
 <p class=MsoPlainText><b style='mso-bidi-font-weight:normal'><span
 style='font-size:12.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
@@ -73,14 +56,11 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Courier New"'
 
 <p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
-"Courier New"'>From the ‘features.txt’ data file read the needed column names
+"Courier New"'><p>From the ‘features.txt’ data file read the needed column names
 and corresponding column numbers. For our assignment we need all the columns
 that have values for <span class=GramE>mean(</span>) and <span class=SpellE>std</span>()
-data. There will be 66 columns</span></p>
-
-<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
-mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
-"Courier New"'>From the ‘activity_labels.txt’ read the activity labels.</span></p>
+data. There will be 66 columns</p>
+<p>From the ‘activity_labels.txt’ read the activity labels.</p></span></p>
 
 <p class=MsoPlainText><b style='mso-bidi-font-weight:normal'><span
 style='font-size:12.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
@@ -88,7 +68,7 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Courier New"'
 
 <p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
-"Courier New"'>We need to read the X- and Y- data files for test and training.
+"Courier New"'><p>We need to read the X- and Y- data files for test and training.
 These files are available in the folder ‘test’ and ‘train’ along with the
 subject names in the ‘subject_test.txt’ data file.</span></p>
 
@@ -230,8 +210,7 @@ minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Courier New"'
 other columns </span></b><span style='font-size:12.0pt;font-family:"Calibri",sans-serif;
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:
 "Courier New"'>- these are the means for actual measurement columns grouped by
-`activity` and `subject`, so they represent the mean of that specific column
-for _one single subject_ performing _one single action_;</span><span
+`activity` and `subject`.</span><span
 style='font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Courier New"'></span></p>
 
