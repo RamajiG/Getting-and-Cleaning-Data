@@ -19,7 +19,7 @@ and Cleaning Data</span></b><span style='font-size:12.0pt;line-height:107%'>,
 conducted by John Hopkins University.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:14.0pt;line-height:107%'>Steps in the code<o:p></o:p></span></b></p>
+style='font-size:14.0pt;line-height:107%'>Steps in the code <b>'project.R'</b><o:p></o:p></span></b></p>
 
 <p class=MsoPlainText><b style='mso-bidi-font-weight:normal'><span
 style='font-size:12.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
