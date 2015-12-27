@@ -20,7 +20,7 @@
 <p><b>`X_{type}.txt`</b> - this file contains actual measurements for all 561 fields</p>
 <p><b>`Y_{type}.txt`</b> - this file contains ‘activity’ number of each measurement. This data will be merged with the measurements. We will use the number to get the activity names read in Step-2;</p>
 <p><b> ‘subject_{type}.txt`</b> - this file contains the subject number for each measurement. This will also be merged with the measurement data to provide us the information of what subject was measured</p>
-<p>Since the formats and steps are identical for ‘test’ and ‘train’ we can write a common function to read the needed data and call it for both.</p>
+<p>Since the formats and steps are identical for ‘test’ and ‘train’ we can write a common function to read the needed data and call it for both.The function,<i>readData()</i>, in the script does this job. Based on the given input it forms the necessary filename, reads the file and returns the read data.</p>
 <p>While reading we will use the <i>read.table</i> function and read only the needed (66) columns’ data from the X- data file into a data frame <i> (fulldata) </i>. Next we read the Y- file to get the activity related to the X-data we just read. Using this Y-data and the activity names we had read earlier from the <i>activity_labels</i> file we will add the necessary activity column to the data frame,<i>fulldata (fulldata$activity) </i>. Lastly, we add the subject as another column <i> (fulldate$subject) </i> in the data frame by reading the subject data file.</p>
 <p><b>Step-4</b></p>
 <p>After creating a data frame separately for ‘test’ and ‘train’ we will bind them into a single data frame <i> (all) </i>.</p>
