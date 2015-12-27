@@ -30,7 +30,7 @@
 <p>Since we want to calculate the mean for all the 66 columns of data for every activity and subject, we will call <i>setkey</i> function and set the data table keys to ‘activity’ and ‘subject’ columns.</p>
 <p>Next we will use <i>lapply</i>  to loop over 66 columns in <i>dt</i>, calculating the mean for every column, and store the output in tidyData</p>
 <p><b>Step-7</b></p>
-<p>Finally, we will write the data from <i>tidyData</i> to a file <i> (tidy.txt) </i> using <i>write.table</i> function.</p>
+<p>Finally,we clean the labels in <i>tidyData</i> removing the characters '()' and, then, write the data to a file <i> (tidy.txt) </i> using <i>write.table</i> function.</p>
 <p><b>Column description</b></p>
 <p>The columns available at the resulting data frame <i> (tidydata) </i> are as follows:</p>
 <p><b>activity</b> - the name of the activity being performed, possible values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING;</p>
