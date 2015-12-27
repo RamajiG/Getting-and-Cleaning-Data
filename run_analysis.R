@@ -54,6 +54,10 @@ setkey(dt,"activity","subject")
 #
 tidyData <-dt[,lapply(.SD,mean),by=key(dt),.SDcols=1:66]
 #
+# Clean the labels removing the characters '()'
+#
+sapply(names(tidyData),function(X) setnames(tidyData,X,gsub("[()]","",X)))
+#
 ## Write the data to a file
 #
 write.table(tidyData, "tidy.txt", sep=",",row.names =FALSE)

@@ -39,7 +39,7 @@ UCI HAR Dataset”<o:p></o:p></b></span></p>
 style='font-size:14.0pt;line-height:107%'>Executing scripts<o:p></o:p></span></b></p>
 
 <p class=MsoNormal>After the data file is extracted you can execute the script,
-<span class=SpellE><b style='mso-bidi-font-weight:normal'>project.R</b></span><b
+<span class=SpellE><b style='mso-bidi-font-weight:normal'>run_analysis.R</b></span><b
 style='mso-bidi-font-weight:normal'>, </b>to generate a file, <span
 class=GramE><b style='mso-bidi-font-weight:normal'>tidy.txt, </b>that</span>
 would contain tidy data.<b style='mso-bidi-font-weight:normal'> </b></p>
